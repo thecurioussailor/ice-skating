@@ -1,5 +1,4 @@
 import Image from "next/image";
-import OcraLogo from "../public/orca-logo.png";
 import LineDefi from "../public/DefiLine185.png";
 import Globe from "../public/globe2.svg";
 import Github from "../public/githab.svg";

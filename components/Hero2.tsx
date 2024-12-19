@@ -106,7 +106,7 @@ const Hero2 = () => {
                 <BlogCard imageUrl={BlogHeader.src} date="04 NOVEMBER 2024" title="Why is everyone obsessing over Solana?"/>
             </header>
             <div className="grid grid-cols-3 w-[840px] h-[279px] gap-3">
-                {blogs.map(blog => (<BlogCard imageUrl={blog.imageUrl} date={blog.date} title={blog.title} />))}
+                {blogs.map((blog, index) => (<BlogCard key={index} imageUrl={blog.imageUrl} date={blog.date} title={blog.title} />))}
             </div>
         </section>
     </div>
