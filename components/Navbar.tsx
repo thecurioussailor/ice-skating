@@ -1,14 +1,17 @@
 import Image from 'next/image';
 import Logo from '../public/logo.svg';
+import Link from 'next/link';
 const Navbar = () => {
   return (
     <div className='flex justify-between px-[220px] py-5 h-20 w-[1280px] max-w-[2000px]'>
-        <Image
-            src={Logo}
-            width={40.21}
-            height={31.25}
-            alt="Picture of the author"
-        />
+        <Link href={'/'}>
+          <Image
+              src={Logo}
+              width={40.21}
+              height={31.25}
+              alt="Picture of the author"
+          />
+        </Link>
         <div className='flex gap-5 min-h-10 h-auto min-w-[306px] w-auto items-center'>
             <span className='font-medium text-base leading-[21.12px] text-center text-[#0A2935] w-auto min-w-[77px] h-auto min-h-[21px] size-4 font-jetbrains'>Security</span>
             <span className='font-medium text-base leading-[21.12px] text-center text-[#0A2935] w-auto min-w-[58px] h-auto min-h-[21px] size-4 font-jetbrains'>System</span>

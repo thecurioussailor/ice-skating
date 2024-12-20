@@ -56,7 +56,7 @@ const Hero = () => {
                             height={32}
                             alt="Solana logo"
                         />
-                        <p className="w-[93px] h-[19px] opacity-40 font-tasaDisplay font-semibold text-[16px] leading-[18.56px] text-center text-[#0A2935] tracking-tight">Enter Amount</p>
+                        <input className="w-[93px] h-[19px] opacity-40 font-tasaDisplay font-semibold text-[16px] leading-[18.56px] placeholder-[#0A2935] text-[#0A2935] tracking-tight outline-none" placeholder="Enter Amount"/>
                     </div>
                     <div className="flex min-w-[260px] w-auto min-h-[43px] h-auto gap-[20px]">
                         <Image
@@ -74,9 +74,9 @@ const Hero = () => {
                             />
                         </div>
                         <div className="flex justify-center items-center w-[105px] min-h-[43px] h-auto rounded-[12px] border-[3px] border-[#25ABE2B2] py-3 px-[20px] bg-gradient-to-b from-[#25ABE2] to-[#00DDFF]">
-                            <span className="w-[39px] h-[19px] font-tasaDisplay font-semibold tracking-tight text-center text-[16px] leading-[18.56px] text-white">
+                            <button className="w-[39px] h-[19px] font-tasaDisplay font-semibold tracking-tight text-center text-[16px] leading-[18.56px] text-white">
                                 Stake
-                            </span>
+                            </button>
                         </div>
                     </div>
                 </div>
