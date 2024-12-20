@@ -47,7 +47,7 @@ const Blogs = () => {
                                 alt="Search"
                             />
                         </div>
-                        <p className="w-[297px] h-[18px] opacity-60 font-jetbrains font-bold text-[14px] leading-[18.48px] text-[#0A2935]">Search</p>
+                        <input className="w-[297px] h-[18px] opacity-60 placeholder-[#0A2935] font-jetbrains font-bold text-[14px] leading-[18.48px] text-[#0A2935] outline-none border-none" placeholder="Search"/>
                     </div>
                     <div className="flex w-[322px] h-[34px] gap-3">
                         <div className="flex justify-center items-center w-[91px] h-[34px] rounded-[12px] border-[3px] border-[#25ABE2B2] py-4 px-[20px] gap-[10px] bg-gradient-to-b from-[#25ABE2] to-[#00DDFF]">
